@@ -1,10 +1,26 @@
-# Utils
+# API
 - GetVersion
   - ```java
   	UtilsAPI.getVersion(); // get version of UtilsAPI
 - TestUtilsAPI
   - ```java
   	UtilsAPI.Test(); // return true when UtilsAPI works
+# Version
+- 1.16.5 (spigot)
+- 1.12.2 (spigot)
+# Utils
+- DiscordWebhookUtil
+  - ```java
+  	public String webhookURL = "Webhook URL";
+	UtilsAPI.DiscordWebhook webhook = new UtilsAPI.DiscordWebhook(webhookURL);
+	webhook.addEmbed(new UtilsAPI.DiscordWebhook.EmbedObject()
+		.setDescription("Test"));
+	try {
+		webhook.execute();
+	}
+	catch(java.io.IOException e) {
+		getLogger().severe(e.getStackTrace().toString());
+	}
 - IPUtil
   - ```java
   	UtilsAPI.getIPOnly(e.getPlayer()); // get player's ip only
@@ -32,15 +48,4 @@
 - ColorUtil
   - ```java
   	UtilsAPI.getColor(0); // return §0
-- DiscordWebhookUtil
-  - ```java
-  	public String webhookURL = "Webhook URL";
-	UtilsAPI.DiscordWebhook webhook = new UtilsAPI.DiscordWebhook(webhookURL);
-	webhook.addEmbed(new UtilsAPI.DiscordWebhook.EmbedObject()
-		.setDescription("Test"));
-	try {
-		webhook.execute();
-	}
-	catch(java.io.IOException e) {
-		getLogger().severe(e.getStackTrace().toString());
-	}
+*Get jar version: *
