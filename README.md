@@ -36,7 +36,7 @@
   	UtilsAPI.getColor(0); // return §0
 - LocationUtil
   - ``java
-  	UtilsAPI.getBlockLocation(null); /* on beta */
+  	UtilsAPI.getBlockLocation(null); // on beta
 	UtilsAPI.getRelative(null, null);
 	UtilsAPI.getLocation(null);
 - OnlineUtil
