@@ -9,6 +9,17 @@
   - ```java
   	UtilsAPI.getIPOnly(e.getPlayer()); // get player's ip only
 	UtilsAPI.getIPPort(e.getPlayer()); // get player's ip:port
+- NameUtil
+  - ```java
+  	UtilsAPI.getName(e.getPlayer()); // get payer's display name
+  	UtilsAPI.getCustomName(e.getPlayer()); // get player's custom name
+- HealthUtil
+  - ```java
+  	UtilsAPI.setHealth(e.getPlayer(), 20); // set player's health
+- FlyUtil
+  - ```java
+  	UtilsAPI.AllowFly(e.getPlayer(), true); // allow player fly
+  	UtilsAPI.setFlySpeed(e.getPlayer(), 10); // set player's fly speed
 - OnlineUtil
   - ```java
   	UtilsAPI.checkOnline(e.getPlayer()); // check online (true = online / false = offline)
