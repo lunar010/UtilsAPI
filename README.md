@@ -8,6 +8,7 @@
 # Tested Version
 - 1.16.5 (spigot)
 - 1.12.2 (spigot)
+- *get jar version on https://github.com/EclipseBETA/UtilsAPI/releases/tag/1.0
 # Utils
 - DiscordWebhookUtil
   - ```java
