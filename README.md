@@ -1,6 +1,7 @@
 # Utils
 - DiscordWebhookUtil
-  - ```public String webhookURL = "Webhook URL";
+  - ```java
+  	public String webhookURL = "Webhook URL";
 	UtilsAPI.DiscordWebhook webhook = new UtilsAPI.DiscordWebhook(webhookURL);
 	webhook.addEmbed(new UtilsAPI.DiscordWebhook.EmbedObject()
 		.setDescription("Test"));
@@ -11,5 +12,5 @@
 		getLogger().severe(e.getStackTrace().toString());
 	}
 - RandomeUtil
-  - ```UtilsAPI.getRandom(0, 100);
-  	test
+  - ```java
+  	UtilsAPI.getRandom(0, 100);
