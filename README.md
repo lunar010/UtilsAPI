@@ -12,5 +12,4 @@
 	}
 - RandomeUtil
   - ```UtilsAPI.getRandom(0, 100);
-  - ``` 
- test
+  	test
