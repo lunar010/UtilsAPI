@@ -21,6 +21,17 @@
 	catch(java.io.IOException e) {
 		getLogger().severe(e.getStackTrace().toString());
 	}
+- VersionUtil
+  - ```java
+  	UtilsAPI.ServerVersion.getBukkitVersion(); // get versioin
+	UtilsAPI.ServerVersion.getByOrder(); // get version by order
+	if (UtilsAPI.ServerVersion.isAtLeast(UtilsAPI.ServerVersion.v1_10)) {
+	// at least
+	} else if (UtilsAPI.ServerVersion.isEquals(UtilsAPI.ServerVersion.v1_11)) {
+		// is equal
+	} else if (UtilsAPI.ServerVersion.isLessThan(UtilsAPI.ServerVersion.v1_12)) {
+		// less than
+	}
 - IPUtil
   - ```java
   	UtilsAPI.getIPOnly(e.getPlayer()); // get player's ip only
