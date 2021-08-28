@@ -1,0 +1,5 @@
+name: UtilsAPI
+version: 1.0
+author: EclipseBETA
+main: github.EclipseBETA.UtilsAPI.Main
+description: EclipseBETA's UtilsAPI
