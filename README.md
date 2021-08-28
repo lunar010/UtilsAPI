@@ -1,11 +1,11 @@
 # API
-- GetVersion
+- Get API Version
   - ```java
   	UtilsAPI.getVersion(); // get version of UtilsAPI
-- TestUtilsAPI
+- Test UtilsAPI
   - ```java
   	UtilsAPI.Test(); // return true when UtilsAPI works
-# Version
+# Tested Version
 - 1.16.5 (spigot)
 - 1.12.2 (spigot)
 # Utils
@@ -48,4 +48,3 @@
 - ColorUtil
   - ```java
   	UtilsAPI.getColor(0); // return §0
-*Get jar version: *
