@@ -6,9 +6,9 @@
   - ```java
   	UtilsAPI.Test(); // return true when UtilsAPI works
 # Tested Version
-- 1.16.5 (spigot)
+- 1.16.5 (spigot) *Probably all version might be work
 - 1.12.2 (spigot)
-- *get jar version on https://github.com/EclipseBETA/UtilsAPI/releases/tag/1.0
+- get jar version on https://github.com/EclipseBETA/UtilsAPI/releases/tag/1.0 *This is pre-release version
 # Utils
 - DiscordWebhookUtil
   - ```java
