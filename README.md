@@ -46,11 +46,6 @@
 - ColorUtil
   - ```java
   	UtilsAPI.getColor(0); // return §0
-- LocationUtil
-  - ```java
-  	UtilsAPI.getBlockLocation(null); // on beta
-	UtilsAPI.getRelative(null, null);
-	UtilsAPI.getLocation(null);
 - OnlineUtil
   - ```java
   	UtilsAPI.checkOnline(e.getPlayer()); // check online (true = online / false = offline)
