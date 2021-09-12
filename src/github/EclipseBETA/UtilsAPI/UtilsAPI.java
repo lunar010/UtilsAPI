@@ -31,7 +31,7 @@ public class UtilsAPI {
 	private static String[] ip2;
 	
 	public static String getColor(int Color) {
-		return "¡×" + Color;
+		return "Â¡Ã—" + Color;
 	}
 	
 	public static String getVersion() {
@@ -51,7 +51,7 @@ public class UtilsAPI {
 	
 	public static String getIPOnly(Player p) {
 		if(p.isOnline()) {
-			ip2 = p.getPlayer().getAddress().toString().replaceAll("/", "").split(":");;
+			ip2 = p.getPlayer().getAddress().toString().replaceAll("/", "").split(":");
 		}
 		return ip2[0];
 	}
